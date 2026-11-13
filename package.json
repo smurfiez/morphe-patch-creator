@@ -1,0 +1,44 @@
+{
+  "name": "@local/morphe-patch-creator",
+  "version": "0.1.0",
+  "description": "Authorized Morphe Android APK patch workflow as native DSH skills: recon, decompile, target hunting, patch writing, and local validation",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "skills",
+    "references",
+    "scripts",
+    "agents",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "GPL-3.0-only",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "android",
+    "apk",
+    "morphe",
+    "patching"
+  ]
+}

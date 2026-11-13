@@ -1,0 +1,5 @@
+# morphe-patch-creator bundle patch.
+# Registers one skill provider that serves the Morphe workflow as native DSH skills.
+- insert:
+    - id: morphe-patch-creator
+      name: "@local/morphe-patch-creator"

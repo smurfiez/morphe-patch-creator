@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Morphe patch creator",
+    "description": "Authorized Android APK patch workflow: reconnaissance, decompilation, smali-verified target hunting, patch writing, and local validation.",
+    "detail": "docs/DETAIL.md"
+  }
+}
